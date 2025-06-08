@@ -1,0 +1,19 @@
+{
+   "menu": [
+   {
+    "Nombre" : "Sopa de lentejas",
+    "Descripcion" : "Un caldo con lentejas echo en casa",
+    "Imagen": "Media/sopaLentejas.jpg"
+   },
+   {
+    "Nombre" : "Hamburguesa con papas",
+    "Descripcion" : "Una hamburguesa con papas",
+    "Imagen": "Media/hamburguesa.webp"
+   },
+   {
+    "Nombre" : "Pasta con camarones",
+    "Descripcion" : "Una pasta italiana con camarones",
+    "Imagen": "Media/pastaCamarones.jpg"
+   }
+] 
+}

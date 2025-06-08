@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:320px) {
+    body{
+        width: min(320px), max(650px);
+        height: 100%;
+    }
+}
+
+@media (min-width:650px) {
+    body{
+        width: clamp(650px);
+        height: 100%;
+    }
+}

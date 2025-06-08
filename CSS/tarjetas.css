@@ -1,0 +1,49 @@
+.menu--card{
+    margin: 0;
+    position: relative;
+    top: 1000px;
+    left: 5%;
+    background-color: rgb(75, 74, 74);
+    border-radius: 10px;
+    height: 500px;
+    width: 1300px;
+    display: flex;
+
+    
+
+    
+}
+
+.card{
+    height: 10%;
+    width: 305px;
+    height: 300px;
+    position: relative;
+    left: 5%;
+    top: 10px;
+    background-color: #1f1f1f;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-right: 95px;
+}
+
+
+.imgCard{
+    border-radius: 8px;
+    position: relative;
+    left: 2px;
+    height: 200px;
+    width: 300px;
+    top: 2px;
+
+
+}
+
+@media (min-width:320px ) {
+    .menu--card{
+        padding-right: 1em;
+        width: 100%;
+    }
+}

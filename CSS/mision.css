@@ -1,0 +1,119 @@
+.mision--vision{
+    position: relative;
+    height: 1500px;
+    top: 100px;
+}
+
+
+.mision{
+    position: relative;
+    left: 800px;
+    top: 50px;
+    font-size: 20px;
+    width: 600px;
+}
+
+.mision--titulo{
+    bottom: 200px;
+    width: 180px;
+    position: relative;
+    color: #f20c12;
+}
+
+.mision--texto{
+    position: relative;
+    bottom: 200px;
+    width: 800px;
+    text-align: justify;
+    color: #65181a;
+}
+
+.imagenMiss{  
+    background: linear-gradient(to right, transparent, #1f1f1f ),
+    url(/Media/Prueba2.jpg);
+    background-size: 930px 500px;
+    height: 350px;
+    position: relative;
+    right: 750px;
+    top: 170px;
+    z-index: 0;
+    width: 930px;
+    height: 500px;
+}
+
+.vision{
+    position: relative;
+    left: 800px;
+    top: -50px;
+    font-size: 20px;
+    width: 800px;
+}
+
+.vision--titulo{
+    bottom: 200px;
+    width: 180px;
+    position: relative;
+    color: #ab1216;
+}
+
+.vision--texto{
+    position: relative;
+    bottom: 200px;
+    width: 800px;
+    text-align: justify;
+    color: #65181a;
+} 
+
+
+.imagenViss{  
+    background: linear-gradient(to right, transparent, #1f1f1f ),
+    url(/Media/Prueba3.jpg);
+    background-size: 930px 500px;
+    height: 350px;
+    position: relative;
+    right: 750px;
+    top: 170px;
+    z-index: 0;
+    width: 930px;
+    height: 500px;
+}
+
+
+.QSomos{
+    position: relative;
+    left: 900px;
+    top: 50px;
+    font-size: 20px;
+    width: 930px;
+    height: 500px;
+}
+
+.QSomos--titulo{
+    bottom: 500px;
+    width: 280px;
+    position: relative;
+    color: #ab1216;
+}
+
+.QSomos--texto{
+    bottom: 500px;
+    color: #65181a;
+    position: relative;
+}
+
+.imagenQSom{
+    background: linear-gradient(to right, transparent, #1f1f1f ),
+    url(/Media/Prueba4.jpg);
+    background-size: 930px 900px;
+    height: 350px;
+    position: relative;
+    right: 850px;
+    
+    z-index: 0;
+    width: 930px;
+    height: 500px;
+}
+
+.vision--titulo{
+    text-align: justify;
+}

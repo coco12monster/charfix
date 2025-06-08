@@ -1,0 +1,61 @@
+header{
+    position: sticky;
+    top: -11px;
+    z-index: 1;
+    
+}
+.encabezado{
+  
+   background-color: #fcfcfc;
+   height: 80px;
+   max-width: 100%;
+   
+}
+
+.logo{
+    position: relative;
+    left: 650px;
+   width: 130px;
+   height: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin: 5px;
+    
+}
+
+.menu{
+    position: relative;
+    left: 80%;
+    bottom: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+@media (min-width:320px ) {
+    .encabezado{
+        position: sticky;
+        border: 0;
+        padding: 0;
+        max-width: 100%;
+        z-index: 1;
+    }
+
+    .logo{
+        left: 5px;
+    }
+
+    .menu{
+        left: 35%;
+        font-size: 2px;
+
+       
+    }
+}
+
+
+
+
