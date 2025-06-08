@@ -9,14 +9,14 @@ body{
 
 @media (min-width:320px) {
     body{
-        width: min(320px), max(650px);
+        width: clamp(320px,100vw,650px);
         height: 100%;
     }
 }
 
 @media (min-width:650px) {
     body{
-        width: clamp(650px);
+        width: clamp(650px,100vw,900px);
         height: 100%;
     }
 }
