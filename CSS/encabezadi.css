@@ -22,9 +22,12 @@ header{
 a{
     text-decoration: none;
     color: black;
-    font-size: 17px;
+    font-size: 15px;
     margin: 5px;
-    
+    font-family: "DM Sans",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .menu{
@@ -45,17 +48,26 @@ a{
     }
 
     .logo{
-        left: 5px;
+        left: 5vw;
     }
 
     .menu{
-        left: 35%;
+        left: 40vw;
         font-size: 2px;
 
        
     }
 }
 
+@media (min-width:650px){
 
+    .menu{
+        left: 60vw;
+        font-size: 2px;
+
+       
+    }
+
+}
 
 

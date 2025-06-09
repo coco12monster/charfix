@@ -1,6 +1,6 @@
 .mision--vision{
     position: relative;
-    height: 1500px;
+    
     top: 100px;
 }
 
@@ -67,7 +67,7 @@
 
 .imagenViss{  
     background: linear-gradient(to right, transparent, #1f1f1f ),
-    url(Media/Prueba3.jpg);
+    url(/Media/Prueba3.jpg);
     background-size: 930px 500px;
     height: 350px;
     position: relative;
