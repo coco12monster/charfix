@@ -1,119 +1,143 @@
 .mision--vision{
-    position: relative;
-    
-    top: 100px;
+    transform: translateY(100px);
 }
-
-
-.mision{
-    position: relative;
-    left: 800px;
-    top: 50px;
-    font-size: 20px;
-    width: 600px;
-}
-
 .mision--titulo{
-    bottom: 200px;
-    width: 180px;
-    position: relative;
-    color: #f20c12;
+    font-family: "DM Sans",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
 }
-
-.mision--texto{
-    position: relative;
-    bottom: 200px;
-    width: 800px;
-    text-align: justify;
-    color: #65181a;
-}
-
-.imagenMiss{  
-    background: linear-gradient(to right, transparent, #1f1f1f ),
-    url(Media/Prueba2.jpg);
-    background-size: 930px 500px;
-    height: 350px;
-    position: relative;
-    right: 750px;
-    top: 170px;
-    z-index: 0;
-    width: 930px;
-    height: 500px;
-}
-
-.vision{
-    position: relative;
-    left: 800px;
-    top: -50px;
-    font-size: 20px;
-    width: 800px;
-}
-
-.vision--titulo{
-    bottom: 200px;
-    width: 180px;
-    position: relative;
-    color: #ab1216;
-}
-
-.vision--texto{
-    position: relative;
-    bottom: 200px;
-    width: 800px;
-    text-align: justify;
-    color: #65181a;
-} 
-
-
-.imagenViss{  
-    background: linear-gradient(to right, transparent, #1f1f1f ),
-    url(/Media/Prueba3.jpg);
-    background-size: 930px 500px;
-    height: 350px;
-    position: relative;
-    right: 750px;
-    top: 170px;
-    z-index: 0;
-    width: 930px;
-    height: 500px;
+.imagen{
+    opacity: 30%;
 }
 
 
-.QSomos{
-    position: relative;
-    left: 900px;
-    top: 50px;
-    font-size: 20px;
-    width: 930px;
-    height: 500px;
-}
-
-.QSomos--titulo{
-    bottom: 500px;
-    width: 280px;
-    position: relative;
-    color: #ab1216;
-}
-
-.QSomos--texto{
-    bottom: 500px;
-    color: #65181a;
-    position: relative;
-}
-
-.imagenQSom{
-    background: linear-gradient(to right, transparent, #1f1f1f ),
-    url(Media/Prueba4.jpg);
-    background-size: 930px 900px;
-    height: 350px;
-    position: relative;
-    right: 850px;
+@media (min-width:320px) {
+    .mision--vision{
+        width: 100vw;
+        
     
-    z-index: 0;
-    width: 930px;
-    height: 500px;
-}
+    }
 
-.vision--titulo{
-    text-align: justify;
+    .mision{
+        padding: 2rem;
+        transform: translateX(3vw);
+        width: 90vw;
+        height: 30vh;    
+    }
+
+    .imagenMiss{
+        width: clamp(300px,80vw,500px);
+        height: clamp(150px,50vh,300px);
+    }
+
+    .imagen{
+        width: clamp(300px,80vw,500px);
+        height: clamp(150px,50vh,300px);
+    }
+
+
+    .mision--titulo{
+        transform: translate(30px,-250px);
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        color: #f6f6f6
+    }
+
+    .textoMiss{
+        transform: translate(9px,-250px);
+        width: clamp(100px,77vw,400px);
+    }
+
+
+    .mision--texto{
+        transform: translateX(1px);
+        font-size: clamp(10px,2vw,15px);
+        color: #fffcfd;
+        font-family: 'DM Sans',sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+    }
+    .vision{
+        padding: 2rem;
+        transform: translate(3vw,10vh);
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .imagenViss{
+        width: clamp(300px,80vw,500px);
+        height: clamp(150px,50vh,300px);
+    }
+
+    .vision--titulo{
+        transform: translate(30px,-250px);
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        color: #f6f6f6
+    }
+    .textoViss{
+        transform: translate(9px,-250px);
+        width: clamp(100px,77vw,400px);
+    }
+
+    
+     .vision--texto{
+        transform: translateX(1px);
+        font-size: clamp(10px,2vw,15px);
+        color: #fffcfd;
+        font-family: 'DM Sans',sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+     .QSomos{
+        padding: 2rem;
+        transform: translate(3vw,20vh);
+        width: 90vw;
+        height: 30vh;    
+    }
+
+    .imagenQsom{
+        width: clamp(300px,77vw,450px);
+        height: clamp(150px,50vh,300px);
+    }    
+    
+    .tituloQs{
+        transform: translate(30px,-280px);
+    }
+
+
+    .QSomos--titulo{
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        color: #f6f6f6
+    }
+
+    .textoQs{
+        transform: translate(9px,-300px);
+        width: clamp(100px,77vw,400px);
+    }
+
+    .QSomos--texto{
+        transform: translateX(1px);
+        font-size: clamp(2px,1.7vw,8px);
+        color: #fffcfd;
+        font-family: 'DM Sans',sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+
 }
+    
+    
+
+
