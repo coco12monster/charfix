@@ -1,49 +1,51 @@
 .menu--card{
     margin: 0;
     position: relative;
-    top: 1000px;
-    left: 5%;
     background-color: rgb(75, 74, 74);
     border-radius: 10px;
-    height: 500px;
-    width: 1300px;
     display: flex;
-
+    flex-wrap: wrap
     
 
     
 }
 
-.card{
-    height: 10%;
-    width: 305px;
-    height: 300px;
-    position: relative;
-    left: 5%;
-    top: 10px;
-    background-color: #1f1f1f;
-    font-family: sans-serif;
-    font-size: 10px;
-    color: aliceblue;
-    border-radius: 10px;
-    margin-right: 95px;
-}
 
-
-.imgCard{
-    border-radius: 8px;
-    position: relative;
-    left: 2px;
-    height: 200px;
-    width: 300px;
-    top: 2px;
-
-
-}
 
 @media (min-width:320px ) {
     .menu--card{
+        top: clamp(300px,55vh,400px);
         padding-right: 1em;
         width: 100%;
+        height: clamp(1000px,100vh,1500px);
+        width: clamp(200px,30vw,650px);
+        left: 5%;
     }
+    .card{
+    width: clamp(150px,100vw,650px);
+    height: clamp(100px,60vw,300px);
+    position: relative;
+    left: clamp(5px,10vw,10px);
+    top: 10px;
+    background-color: #1f1f1f;
+    font-family: 'DM Sans',sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    
+    padding: 10px;
+    }
+
+    .imgCard{
+    border-radius: 8px;
+    position: relative;
+    left: 2px;
+    height: clamp(100px,20vh,650px);
+    width: clamp(100px,39vh,650px);
+    top: 2px;
+    }
+
 }

@@ -40,7 +40,6 @@ a{
 
 @media (min-width:320px ) {
     .encabezado{
-        position: sticky;
         border: 0;
         padding: 0;
         max-width: 100%;
@@ -68,6 +67,14 @@ a{
        
     }
 
+}
+
+@media (min-width: 900px) {
+       .encabezado{
+
+   max-width: 100%;
+   
+};
 }
 
 

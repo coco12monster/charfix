@@ -29,3 +29,11 @@ body{
         height: 100%;
     }
 }
+
+
+@media (min-width:1200px) {
+    body{
+        width: clamp(1200px,100vw,1460px);
+        height: 100%;
+    }
+}
