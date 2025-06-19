@@ -13,9 +13,15 @@ async function jsonData(path) {
         card.id = 'card'
         cards.append(card);
         var prueba = `
+            <div class="imgContainer cardimg 1">
             <img class="imgCard" src=${menu.Imagen}>
+            </div>
+            <div class="titulo--container">
             <h2>${menu.Nombre}</h2>
-            <p class="descripcion">${menu.Descripcion}</p>`;
+            </div>
+            <div class="description--container">
+            <p class="descripcion">${menu.Descripcion}</p>
+            </div>`;
             card.innerHTML = prueba;
     });
 }

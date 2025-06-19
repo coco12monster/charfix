@@ -1,50 +1,61 @@
 .menu--card{
-    margin: 0;
+    
     position: relative;
     background-color: rgb(75, 74, 74);
     border-radius: 10px;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
     
 
     
 }
-
-
-
-@media (min-width:320px ) {
-    .menu--card{
-        top: clamp(300px,55vh,400px);
-        padding-right: 1em;
-        width: 100%;
-        height: clamp(1000px,100vh,1500px);
-        width: clamp(200px,30vw,650px);
-        left: 5%;
-    }
-    .card{
-    width: clamp(150px,100vw,650px);
-    height: clamp(100px,60vw,300px);
-    position: relative;
-    left: clamp(5px,10vw,10px);
-    top: 10px;
-    background-color: #1f1f1f;
+.card{
     font-family: 'DM Sans',sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
     font-size: 10px;
     color: aliceblue;
-    border-radius: 10px;
-    
-    padding: 10px;
+}
+
+
+
+@media (min-width:320px ) {
+    .titulo--container{
+        padding-top: clamp(10px,50vh,35px);
+        
+    }
+
+    .menu--card{
+        top: clamp(300px,55vh,400px);
+        height: clamp(1000px,100vh,1500px);
+        width: clamp(230px,70vw,650px);
+        left: clamp(10px,10vw,200px);
+    }
+    .card{
+        width: clamp(150px,63vw,650px);
+        height: clamp(100px,50vh,300px);
+        position: relative;
+        left: clamp(7px,20vw,15px);
+        top: 5px;
+        background-color: #1f1f1f;
+        border-radius: 10px;
+    }
+    .imgContainer{
+        border-radius: 8px;
+        position: relative;
+        left: 2px;
+        width: clamp(100px,60vw,650px);
+        height: clamp(100px,20vh,350px);
+        top: 2px;
     }
 
     .imgCard{
     border-radius: 8px;
     position: relative;
     left: 2px;
-    height: clamp(100px,20vh,650px);
-    width: clamp(100px,39vh,650px);
+    height: clamp(100px,27vh,350px);
+    width: clamp(100px,61.2vw,650px);
     top: 2px;
     }
 
